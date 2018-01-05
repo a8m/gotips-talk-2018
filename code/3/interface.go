@@ -3,12 +3,6 @@
 // or internal usage (you use it only once in the code).
 package boring
 
-import (
-	"go/ast"
-
-	"github.com/a8m/mcl/token"
-)
-
 // collect gets an adder node and add to it any fields
 // or indexes ahead.
 func (p *parser) collect(adder interface {
